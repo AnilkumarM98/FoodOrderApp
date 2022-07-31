@@ -1,0 +1,40 @@
+header {
+    background-color: #ededed;
+    padding: 0;
+    border-bottom: 1px solid #3C99DC;
+}
+
+a {
+    color: #3C99DC;
+}
+
+a:hover {
+    background-color: #3C99DC;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.Logo {
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 1em;
+    display: inline-block;
+}
+
+nav a.active {
+    background-color: #3C99DC;
+    color: white;
+}

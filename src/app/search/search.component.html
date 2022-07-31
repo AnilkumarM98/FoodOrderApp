@@ -1,0 +1,5 @@
+<div>
+    <input id="myInput" type="text" placeholder="Search food from Gusteau's!🍔" [(ngModel)]="searchItem"
+        onkeypress="return enterKeyPressed(event)">
+    <button (click)="search()" (change)="search()"> Search Food </button>
+</div>
